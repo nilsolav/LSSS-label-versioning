@@ -1,0 +1,1063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<survey version="1.0">
+   <configuration>
+      <unit name="SurveyConfiguration" version="0.9">
+         <configuration>
+            <parameters/>
+         </configuration>
+         <unit name="SurveyConf">
+            <configuration>
+               <parameters>
+                  <parameter name="UseLocalDatabase">false</parameter>
+                  <parameter name="Nation">Norway</parameter>
+                  <parameter name="PlatformId">9566</parameter>
+                  <parameter name="Platform">Kronprins Haakon (9566)</parameter>
+                  <parameter name="SurveyId">7111</parameter>
+                  <parameter name="Survey">S2014119</parameter>
+                  <parameter name="StartDate">2019-12-02</parameter>
+                  <parameter name="StartTime">14:00</parameter>
+                  <parameter name="StopDate">2019-12-02</parameter>
+                  <parameter name="StopTime">16:00</parameter>
+                  <parameter name="BoundaryNorth">0</parameter>
+                  <parameter name="BoundarySouth">0</parameter>
+                  <parameter name="BoundaryWest">0</parameter>
+                  <parameter name="BoundaryEast">0</parameter>
+                  <parameter name="Comment"/>
+               </parameters>
+            </configuration>
+         </unit>
+         <unit name="AcousticCategoryConf">
+            <configuration>
+               <species>
+                  <speciesMappings/>
+               </species>
+            </configuration>
+         </unit>
+         <unit name="GridConf">
+            <configuration>
+               <parameters>
+                  <parameter name="HorizontalGridUnit">pings</parameter>
+                  <parameter name="PreferredHorizontalSize">100</parameter>
+                  <parameter name="AutomaticDetailMode">false</parameter>
+                  <parameter name="CoarseHorizontalGrid">
+                     <parameter name="use">false</parameter>
+                     <parameter name="size">5</parameter>
+                  </parameter>
+                  <parameter name="MediumHorizontalGrid">
+                     <parameter name="use">false</parameter>
+                     <parameter name="size">1</parameter>
+                  </parameter>
+                  <parameter name="FineHorizontalGrid">
+                     <parameter name="use">true</parameter>
+                     <parameter name="size">2</parameter>
+                  </parameter>
+                  <parameter name="SchoolHorizontalGridSize">0.05</parameter>
+                  <parameter name="VerticalGridSizePelagic">1</parameter>
+                  <parameter name="VerticalGridSizeBottom">1</parameter>
+                  <parameter name="SchoolVerticalGridSizePelagic">1</parameter>
+                  <parameter name="SchoolVerticalGridSizeBottom">1</parameter>
+                  <parameter name="VerticalExtentBottom">10</parameter>
+               </parameters>
+            </configuration>
+            <unit name="GridConfPromus">
+               <configuration>
+                  <parameters>
+                     <parameter name="SurveyAveragingInterval">1</parameter>
+                     <parameter name="DeltaRange">
+                        <parameter name="useNative">false</parameter>
+                        <parameter name="DeltaRange">10</parameter>
+                     </parameter>
+                     <parameter name="DeltaTheta">
+                        <parameter name="useNative">false</parameter>
+                        <parameter name="DeltaTheta">20</parameter>
+                     </parameter>
+                     <parameter name="DeltaPhi">
+                        <parameter name="useNative">false</parameter>
+                        <parameter name="DeltaPhi">15</parameter>
+                     </parameter>
+                     <parameter name="MinRange">0</parameter>
+                     <parameter name="MaxRange">1000</parameter>
+                     <parameter name="MinDepth">-20</parameter>
+                     <parameter name="MaxDepth">1000</parameter>
+                     <parameter name="MinFan">0</parameter>
+                     <parameter name="MaxFan">20</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+         </unit>
+         <unit name="SurveyMiscConf">
+            <configuration>
+               <parameters>
+                  <parameter name="PelagicMode">true</parameter>
+                  <parameter name="PingMapping">Ping</parameter>
+                  <parameter name="SeabedMounted">false</parameter>
+                  <parameter name="SeabedMountedDistanceToSeabed">0</parameter>
+                  <parameter name="SeabedMountedDistanceToSurface">500</parameter>
+                  <parameter name="MainFrequency">38000</parameter>
+                  <parameter name="TopBoundaryOffset">15</parameter>
+                  <parameter name="BottomBoundaryOffset">0.5</parameter>
+                  <parameter name="MinFrequencyForBottom">10000</parameter>
+                  <parameter name="MaxFrequencyForBottom">200000</parameter>
+                  <parameter name="MinimumDepthThresholdFactor">0.99</parameter>
+                  <parameter name="PreferredUpperThreshold">-30</parameter>
+                  <parameter name="PreferredLowerThreshold">-82</parameter>
+                  <parameter name="AdditionalLowerThresholds"/>
+                  <parameter name="UseSchoolCategorization">true</parameter>
+                  <parameter name="UseTrackCategorization">true</parameter>
+                  <parameter name="ProbabilityThreshold">0</parameter>
+                  <parameter name="ComputeSchoolParameters">false</parameter>
+               </parameters>
+            </configuration>
+            <unit name="SurveyIcesConf">
+               <configuration>
+                  <IcesAcousticMetadata>
+                     <parameter name="Organisation"/>
+                     <Instruments/>
+                     <Calibrations/>
+                     <DataAcquisitions/>
+                     <DataProcessings/>
+                  </IcesAcousticMetadata>
+               </configuration>
+            </unit>
+            <unit name="MiscConfPromus">
+               <configuration>
+                  <parameters>
+                     <parameter name="AlongShipOffset">0</parameter>
+                     <parameter name="AthwartShipOffset">0</parameter>
+                     <parameter name="TransducerOrientation">270</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+         </unit>
+         <unit name="DataConf">
+            <configuration>
+               <parameters>
+                  <parameter name="SortByTime">false</parameter>
+                  <parameter name="TimeGrouping">DAYS</parameter>
+                  <parameter name="FirstSelectedFile">2017843-D20170426-T115044</parameter>
+                  <parameter name="LastSelectedFile">2017843-D20170502-T054826</parameter>
+                  <parameter name="DataDir" ref="LSSS">..\..\EK60\EK60_RAWDATA</parameter>
+                  <parameter name="KoronaDataDir" ref="LSSS">..\..\EK60\KORONA</parameter>
+                  <parameter name="TrawlDataDir" ref="LSSS">..\..\EK60\Trawl</parameter>
+                  <parameter name="TowfishDataDir" ref="LSSS">..\..\EK60\Towfish</parameter>
+                  <parameter name="CTDDataDir" ref="LSSS">..\..\EK60\CTD</parameter>
+                  <parameter name="RefLogDataDir" ref="LSSS">..\..\EK60\RefLog</parameter>
+                  <parameter name="FileDrawDataDir" ref="LSSS">..\..\EK60\FileDraw</parameter>
+                  <parameter name="ReportsDir" ref="SurveyDir">REPORTS</parameter>
+                  <parameter name="WorkDir" ref="SurveyDir">WORK</parameter>
+                  <parameter name="ExportDir" ref="LSSS">..\..\EK60\Export</parameter>
+               </parameters>
+            </configuration>
+            <unit name="DeepVisionDataConf">
+               <configuration>
+                  <parameters>
+                     <parameter name="DeepVisionDataDir" ref="LSSS">..\..\EK60\DeepVision</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="DataConfPromus">
+               <configuration>
+                  <parameters>
+                     <parameter name="SortByTime">false</parameter>
+                     <parameter name="TimeGrouping">DAYS</parameter>
+                     <parameter name="FirstSelectedFile"/>
+                     <parameter name="LastSelectedFile"/>
+                     <parameter name="SonarDataDir" ref="LSSS">..\..\EK60\MS70Raw</parameter>
+                     <parameter name="ProcessedSonarDataDir" ref="LSSS">..\..\EK60\MS70Processed</parameter>
+                     <parameter name="PhantomDataDir" ref="LSSS">..\..\EK60\MS70Phantom</parameter>
+                     <parameter name="MS70 time offset">0</parameter>
+                     <parameter name="AutoSelect">true</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+         </unit>
+         <unit name="PreprocessingConf">
+            <configuration>
+               <OnTheFly>
+                  <parameter name="UseOnTheFlyProcessing">false</parameter>
+                  <parameter name="OnTheFlyDataDir"/>
+                  <parameter name="EvenIfProcessed">false</parameter>
+               </OnTheFly>
+               <parameters>
+                  <parameter name="ConfigFileSettings" ref="SurveyDir">lsss\ConfigFileSettings.cfs</parameter>
+                  <parameter name="SourceDirectory" ref="SurveyDir">Raw</parameter>
+                  <parameter name="SourceDirectorySynchronization"/>
+                  <parameter name="DestinationDirectory" ref="SurveyDir">KORONA</parameter>
+                  <parameter name="DestinationDirectorySynchronization"/>
+               </parameters>
+            </configuration>
+            <unit name="PreprocessingPromus">
+               <configuration>
+                  <parameters>
+                     <parameter name="ConfigFileSettings" ref="SurveyDir">lsss\PromusConfigFileSettings.cfs</parameter>
+                     <parameter name="SourceDirectory" ref="SurveyDir">MS70Raw</parameter>
+                     <parameter name="SourceDirectorySynchronization"/>
+                     <parameter name="DestinationDirectory" ref="SurveyDir">MS70Processed</parameter>
+                     <parameter name="DestinationDirectorySynchronization"/>
+                  </parameters>
+               </configuration>
+            </unit>
+         </unit>
+         <unit name="ModuleConf">
+            <configuration>
+               <parameters/>
+            </configuration>
+            <unit name="BroadbandSvModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="FrequencyWindowing">5</parameter>
+                     <parameter name="FrequencyResolution">0.1</parameter>
+                     <parameter name="PlotStdErr">true</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="BroadbandTsModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="MinTS">-40</parameter>
+                     <parameter name="PulseLengthDeterminationLevel">40</parameter>
+                     <parameter name="MinEchoLength">0</parameter>
+                     <parameter name="MaxEchoLength">1</parameter>
+                     <parameter name="MaxGainCompensation">6</parameter>
+                     <parameter name="DoPhaseDeviationCheck">false</parameter>
+                     <parameter name="MaxPhaseDevSteps">8</parameter>
+                     <parameter name="TargetExtentMode">AUTOMATIC</parameter>
+                     <parameter name="ManualTargetExtentSymmetrical">true</parameter>
+                     <parameter name="ManualTargetExtent">0.5</parameter>
+                     <parameter name="ManualTargetExtentAbove">0.25</parameter>
+                     <parameter name="ManualTargetExtentBelow">0.25</parameter>
+                     <parameter name="PingRadius">1</parameter>
+                     <parameter name="FrequencyWindowing">5</parameter>
+                     <parameter name="FrequencyResolution">0.1</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="BroadbandTsHistogramModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="TSResolution">1</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="BottomEchogramModule">
+               <configuration>
+                  <module>
+                     <overlays>
+                        <overlay name="AccumulatedSaOverlay" enabled="true"/>
+                        <overlay name="BottomOverlay" enabled="true"/>
+                        <overlay name="BroadbandTsEchogramOverlay" enabled="false"/>
+                        <overlay name="CommentEchogramOverlay" enabled="true"/>
+                        <overlay name="DeepVisionPathEchogramOverlay" enabled="true"/>
+                        <overlay name="DepthMarkerOverlay" enabled="true"/>
+                        <overlay name="EchogramImageOverlay" enabled="true"/>
+                        <overlay name="FileDrawOverlay" enabled="true"/>
+                        <overlay name="FileMarkerOverlay" enabled="true"/>
+                        <overlay name="GridOverlay" enabled="true"/>
+                        <overlay name="KoronaRegionEchogramOverlay" enabled="true"/>
+                        <overlay name="MapPositionOverlay" enabled="true"/>
+                        <overlay name="MaskingDisplayOverlay" enabled="true"/>
+                        <overlay name="MaskingEditOverlay" enabled="false"/>
+                        <overlay name="PingMarkerOverlay" enabled="true"/>
+                        <overlay name="PromusDataMarkerEchogramOverlay" enabled="true"/>
+                        <overlay name="PromusDatabaseMarkerEchogramOverlay" enabled="true"/>
+                        <overlay name="PromusNavigatorEchogramOverlay" enabled="true"/>
+                        <overlay name="PromusSchoolMarkerOverlay" enabled="true"/>
+                        <overlay name="PromusSelectedPingEchogramOverlay" enabled="true"/>
+                        <overlay name="RefLogEchogramOverlay" enabled="true"/>
+                        <overlay name="RegionAddOverlay" enabled="false"/>
+                        <overlay name="RegionDisplayOverlay" enabled="true"/>
+                        <overlay name="RegionEditOverlay" enabled="true"/>
+                        <overlay name="SaOverlay" enabled="false"/>
+                        <overlay name="SchoolCategoryOverlay" enabled="true"/>
+                        <overlay name="TSEchogramOverlay" enabled="false"/>
+                        <overlay name="TicksOverlay" enabled="true"/>
+                        <overlay name="TrackCategoryEchogramOverlay" enabled="false"/>
+                        <overlay name="TrackEchogramOverlay" enabled="false"/>
+                        <overlay name="VerticalLineOverlay" enabled="true"/>
+                        <overlay name="ZoomOverlay" enabled="false"/>
+                     </overlays>
+                  </module>
+               </configuration>
+               <unit name="DeepVisionPathEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="DistanceMapping">Identity</parameter>
+                        <parameter name="DistanceBehindShip">0</parameter>
+                        <parameter name="AthwartDistanceThreshold">100</parameter>
+                        <parameter name="MaxNumberOfCircles">2000</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="DepthMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsPerMarker">70</parameter>
+                        <parameter name="FontSize">14</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="FileDrawOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineThicknes">2</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="FileMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MarkerHeight">30</parameter>
+                        <parameter name="LineThickness">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="GridOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="ShowNumbers">false</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusSchoolMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineThickness">1</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusSelectedPingEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineWidth">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="RefLogEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MarkerHeight">30</parameter>
+                        <parameter name="LineThickness">3</parameter>
+                        <parameter name="TextOn">true</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="RegionDisplayOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="SelectedLineThickness">2</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="TicksOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="Unit">Time</parameter>
+                        <parameter name="TickInterval">10</parameter>
+                        <parameter name="DistanceTick">1</parameter>
+                        <parameter name="PingTick">100</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="TrackEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="ShowExtent">true</parameter>
+                        <parameter name="ShowLabels">false</parameter>
+                        <parameter name="WhichTracks">ACCEPTED</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="VerticalLineOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsBetweenLines">200</parameter>
+                        <parameter name="Text">Time</parameter>
+                        <parameter name="FontSize">14</parameter>
+                        <parameter name="SaFontSize">12</parameter>
+                        <parameter name="ShowSa">true</parameter>
+                        <parameter name="ShowAcousticCategories">false</parameter>
+                        <parameter name="ShowLabels">false</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusNavigatorEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineWidth">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+            </unit>
+            <unit name="CategorizationAnalysisModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="HMACK">-70.9</parameter>
+                     <parameter name="HERR">-71.3</parameter>
+                     <parameter name="CAP">-71.3</parameter>
+                     <parameter name="MACKE">-84.9</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="ColorBarModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="Colormap">Combined</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="DeepVisionImageViewModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="ShowLeftImage">true</parameter>
+                     <parameter name="ShowRightImage">true</parameter>
+                     <parameter name="ShowOnlyActiveImages">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="EchogramPlotModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="bottomDepth">false</parameter>
+                     <parameter name="vesselDistance">false</parameter>
+                     <parameter name="vesselSpeed">false</parameter>
+                     <parameter name="longitude">false</parameter>
+                     <parameter name="latitude">false</parameter>
+                     <parameter name="heading">false</parameter>
+                     <parameter name="noiseAverage">false</parameter>
+                     <parameter name="noiseUpperLimit">false</parameter>
+                     <parameter name="noiseQuality">false</parameter>
+                     <parameter name="noiseFallbackAverage">false</parameter>
+                     <parameter name="noiseFallbackUpperLimit">false</parameter>
+                     <parameter name="noiseFallbackQuality">false</parameter>
+                     <parameter name="sv">false</parameter>
+                     <parameter name="tsc">false</parameter>
+                     <parameter name="tsu">false</parameter>
+                     <parameter name="absorption">false</parameter>
+                     <parameter name="heave">false</parameter>
+                     <parameter name="pitch">false</parameter>
+                     <parameter name="pulseDuration">false</parameter>
+                     <parameter name="roll">false</parameter>
+                     <parameter name="sampleInterval">false</parameter>
+                     <parameter name="soundVelocity">false</parameter>
+                     <parameter name="transmitPower">false</parameter>
+                     <parameter name="complexTransducerImpedanceSector1">false</parameter>
+                     <parameter name="complexTransducerImpedanceSector2">false</parameter>
+                     <parameter name="complexTransducerImpedanceSector3">false</parameter>
+                     <parameter name="complexTransducerImpedanceSector4">false</parameter>
+                     <parameter name="complexTransducerImpedancePhaseSector1">false</parameter>
+                     <parameter name="complexTransducerImpedancePhaseSector2">false</parameter>
+                     <parameter name="complexTransducerImpedancePhaseSector3">false</parameter>
+                     <parameter name="complexTransducerImpedancePhaseSector4">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="FrequencyResponseModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="XAxis">SQRT</parameter>
+                     <parameter name="YAxis">DYNAMIC</parameter>
+                     <parameter name="PlotStdErr">true</parameter>
+                     <parameter name="PlotCategories">false</parameter>
+                     <parameter name="PlotInterpretationFunction">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="InterpretationModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="FrequencyResponseFunction">pow(38000 / F, 0.4)</parameter>
+                     <parameter name="StoreRawDataSpecies">false</parameter>
+                     <parameter name="ShowQualityOptions">false</parameter>
+                     <parameter name="Quality">HIGH</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="KoronaExperimentationModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="PreprocessingSetup">1</parameter>
+                     <parameter name="PingPadding">5</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="MapModule">
+               <configuration>
+                  <module>
+                     <overlays>
+                        <overlay name="BackgroundMapOverlay" enabled="true"/>
+                        <overlay name="CTDMapOverlay" enabled="true"/>
+                        <overlay name="CommentMapOverlay" enabled="true"/>
+                        <overlay name="DragOverlay" enabled="false"/>
+                        <overlay name="EchogramPositionOverlay" enabled="true"/>
+                        <overlay name="FileMarkerMapOverlay" enabled="true"/>
+                        <overlay name="LatLonOverlay" enabled="true"/>
+                        <overlay name="PanOverlay" enabled="true"/>
+                        <overlay name="PromusClusterMapOverlay" enabled="true"/>
+                        <overlay name="PromusCurrentPingMapOverlay" enabled="true"/>
+                        <overlay name="PromusMapPositionOverlay" enabled="true"/>
+                        <overlay name="PromusSchoolBoundingBoxOverlay" enabled="true"/>
+                        <overlay name="PromusSurveyLineMapOverlay" enabled="true"/>
+                        <overlay name="RefLogMapOverlay" enabled="true"/>
+                        <overlay name="SaMapOverlay" enabled="true"/>
+                        <overlay name="ScaleMapOverlay" enabled="true"/>
+                        <overlay name="SurveyLineOverlay" enabled="true"/>
+                        <overlay name="ZoomMapOverlay" enabled="true"/>
+                     </overlays>
+                  </module>
+               </configuration>
+               <unit name="LatLonOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsBetweenLines">100</parameter>
+                        <parameter name="FontSize">14</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="SaMapOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MaxThreshold_sa">0</parameter>
+                        <parameter name="MinThreshold_sa">0</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+            </unit>
+            <unit name="PelagicEchogramModule">
+               <configuration>
+                  <module>
+                     <overlays>
+                        <overlay name="AccumulatedSaOverlay" enabled="true"/>
+                        <overlay name="BottomOverlay" enabled="false"/>
+                        <overlay name="BroadbandTsEchogramOverlay" enabled="false"/>
+                        <overlay name="CommentEchogramOverlay" enabled="false"/>
+                        <overlay name="DeepVisionPathEchogramOverlay" enabled="false"/>
+                        <overlay name="DepthMarkerOverlay" enabled="true"/>
+                        <overlay name="EchogramImageOverlay" enabled="true"/>
+                        <overlay name="FileDrawOverlay" enabled="false"/>
+                        <overlay name="FileMarkerOverlay" enabled="false"/>
+                        <overlay name="GridOverlay" enabled="true"/>
+                        <overlay name="KoronaRegionEchogramOverlay" enabled="false"/>
+                        <overlay name="MapPositionOverlay" enabled="false"/>
+                        <overlay name="MaskingDisplayOverlay" enabled="true"/>
+                        <overlay name="MaskingEditOverlay" enabled="false"/>
+                        <overlay name="PingMarkerOverlay" enabled="false"/>
+                        <overlay name="PromusDataMarkerEchogramOverlay" enabled="false"/>
+                        <overlay name="PromusDatabaseMarkerEchogramOverlay" enabled="false"/>
+                        <overlay name="PromusNavigatorEchogramOverlay" enabled="true"/>
+                        <overlay name="PromusSchoolMarkerOverlay" enabled="false"/>
+                        <overlay name="PromusSelectedPingEchogramOverlay" enabled="false"/>
+                        <overlay name="RefLogEchogramOverlay" enabled="false"/>
+                        <overlay name="RegionAddOverlay" enabled="false"/>
+                        <overlay name="RegionDisplayOverlay" enabled="true"/>
+                        <overlay name="RegionEditOverlay" enabled="true"/>
+                        <overlay name="SaOverlay" enabled="true"/>
+                        <overlay name="SchoolCategoryOverlay" enabled="true"/>
+                        <overlay name="TSEchogramOverlay" enabled="false"/>
+                        <overlay name="TicksOverlay" enabled="false"/>
+                        <overlay name="TrackCategoryEchogramOverlay" enabled="false"/>
+                        <overlay name="TrackEchogramOverlay" enabled="false"/>
+                        <overlay name="VerticalLineOverlay" enabled="false"/>
+                        <overlay name="ZoomOverlay" enabled="false"/>
+                     </overlays>
+                  </module>
+               </configuration>
+               <unit name="DeepVisionPathEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="DistanceMapping">Identity</parameter>
+                        <parameter name="DistanceBehindShip">0</parameter>
+                        <parameter name="AthwartDistanceThreshold">100</parameter>
+                        <parameter name="MaxNumberOfCircles">2000</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="DepthMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsPerMarker">70</parameter>
+                        <parameter name="FontSize">14</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="FileDrawOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineThicknes">2</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="FileMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MarkerHeight">30</parameter>
+                        <parameter name="LineThickness">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="GridOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="ShowNumbers">false</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusSchoolMarkerOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineThickness">1</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusSelectedPingEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineWidth">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="RefLogEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MarkerHeight">30</parameter>
+                        <parameter name="LineThickness">3</parameter>
+                        <parameter name="TextOn">true</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="RegionDisplayOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="SelectedLineThickness">2</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="TicksOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="Unit">Time</parameter>
+                        <parameter name="TickInterval">10</parameter>
+                        <parameter name="DistanceTick">1</parameter>
+                        <parameter name="PingTick">100</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="TrackEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="ShowExtent">true</parameter>
+                        <parameter name="ShowLabels">false</parameter>
+                        <parameter name="WhichTracks">ACCEPTED</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="VerticalLineOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsBetweenLines">200</parameter>
+                        <parameter name="Text">Distance</parameter>
+                        <parameter name="FontSize">14</parameter>
+                        <parameter name="SaFontSize">12</parameter>
+                        <parameter name="ShowSa">true</parameter>
+                        <parameter name="ShowAcousticCategories">false</parameter>
+                        <parameter name="ShowLabels">false</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="PromusNavigatorEchogramOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="LineWidth">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+            </unit>
+            <unit name="PingPlotModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="PingRadius">0</parameter>
+                     <parameter name="UseThresholdRange">false</parameter>
+                     <parameter name="OnlySelectedRegions">true</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="BroadbandTsPositionsModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="Cross">true</parameter>
+                     <parameter name="AngularLines">true</parameter>
+                     <parameter name="AngularText">true</parameter>
+                     <parameter name="CartesianAxesLabels">true</parameter>
+                     <parameter name="CartesianGridLines">false</parameter>
+                     <parameter name="CartesianGridText">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="PromusColorBarModule">
+               <configuration>
+                  <AlphaValues>0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875
+0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875
+0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0.1875 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</AlphaValues>
+               </configuration>
+            </unit>
+            <unit name="PromusPhantomEchogramModule">
+               <configuration>
+                  <module>
+                     <overlays>
+                        <overlay name="ChannelInfoPhantomOverlay" enabled="true"/>
+                        <overlay name="DepthMarkerPhantomOverlay" enabled="true"/>
+                        <overlay name="EchogramImagePhantomOverlay" enabled="true"/>
+                        <overlay name="ExclusionPhantomOverlay" enabled="true"/>
+                        <overlay name="FileMarkerPhantomOverlay" enabled="true"/>
+                        <overlay name="GoToPhantomOverlay" enabled="true"/>
+                        <overlay name="MaskingPhantomOverlay" enabled="true"/>
+                        <overlay name="MousePositionPhantomOverlay" enabled="true"/>
+                        <overlay name="NavigatorPhantomOverlay" enabled="true"/>
+                        <overlay name="SelectedPingPhantomOverlay" enabled="true"/>
+                        <overlay name="ZoomPhantomOverlay" enabled="false"/>
+                     </overlays>
+                  </module>
+               </configuration>
+               <unit name="DepthMarkerPhantomOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="PixelsPerMarker">70</parameter>
+                        <parameter name="FontSize">14</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+               <unit name="FileMarkerPhantomOverlay">
+                  <configuration>
+                     <parameters>
+                        <parameter name="MarkerHeight">30</parameter>
+                        <parameter name="LineThickness">3</parameter>
+                     </parameters>
+                  </configuration>
+               </unit>
+            </unit>
+            <unit name="PromusPingDisplayModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="MaxAlpha">0.25</parameter>
+                     <parameter name="Ping data">true</parameter>
+                     <parameter name="Bottom">true</parameter>
+                     <parameter name="UseSchoolMask">false</parameter>
+                     <parameter name="ShowGrowDepth">false</parameter>
+                     <parameter name="LargeGrowPoint">true</parameter>
+                     <parameter name="DisplayAxes">true</parameter>
+                     <parameter name="ShowOutline">true</parameter>
+                     <parameter name="ShowSliceIndicator">true</parameter>
+                     <parameter name="AnimationRange">Grown school range</parameter>
+                     <parameter name="LoopAnimation">false</parameter>
+                     <parameter name="RealtimeAnimationFactor">1</parameter>
+                     <parameter name="Tick interval">50</parameter>
+                     <parameter name="Axis length">400</parameter>
+                     <parameter name="SurveyLineLength">150</parameter>
+                     <parameter name="HighFanNumberCutoff">18</parameter>
+                     <parameter name="LowFanNumberCutoff">0</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="PromusSliceDisplayModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="Show grow depth">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="PromusSchoolModule">
+               <configuration>
+                  <module>
+                     <parameters/>
+                     <SchoolAspects>
+                        <AllPing>
+                           <Morphology>
+                              <parameters>
+                                 <parameter name="ShowCorrectedBox">true</parameter>
+                                 <parameter name="ShowUncorrectedBox">true</parameter>
+                                 <parameter name="ShowSchoolSurface">false</parameter>
+                                 <parameter name="ShowSchool4DGrid">false</parameter>
+                                 <parameter name="ShowSchoolTexture">false</parameter>
+                                 <parameter name="HorizontalBeamWidthScaling">1</parameter>
+                                 <parameter name="VerticalBeamWidthScaling">1</parameter>
+                                 <parameter name="MaxSv">-30</parameter>
+                              </parameters>
+                           </Morphology>
+                           <Nuclei>
+                              <parameters/>
+                           </Nuclei>
+                           <Holes>
+                              <parameters/>
+                           </Holes>
+                           <Distribution>
+                              <parameters/>
+                           </Distribution>
+                           <Movement>
+                              <parameters>
+                                 <parameter name="ShowGravityCenter">true</parameter>
+                              </parameters>
+                           </Movement>
+                        </AllPing>
+                        <PerPing>
+                           <Morphology>
+                              <parameters>
+                                 <parameter name="ShowCorrectedBox">true</parameter>
+                                 <parameter name="ShowUncorrectedBox">true</parameter>
+                                 <parameter name="ShowSchoolSurface">false</parameter>
+                              </parameters>
+                           </Morphology>
+                           <Position>
+                              <parameters>
+                                 <parameter name="ShowPositionPars">true</parameter>
+                                 <parameter name="ShowGravityCenter">true</parameter>
+                              </parameters>
+                           </Position>
+                           <Distribution>
+                              <parameters/>
+                           </Distribution>
+                           <Semivariance>
+                              <parameters>
+                                 <parameter name="MaxSampleDistance">1000</parameter>
+                              </parameters>
+                           </Semivariance>
+                           <Nuclei>
+                              <parameters>
+                                 <parameter name="DisplayNucleiSurface">true</parameter>
+                                 <parameter name="MinNucleiSize">1</parameter>
+                                 <parameter name="NucleiThreshold">-40</parameter>
+                              </parameters>
+                           </Nuclei>
+                           <Holes>
+                              <parameters>
+                                 <parameter name="DisplayHoleSurface">true</parameter>
+                                 <parameter name="MinHoleSize">1</parameter>
+                              </parameters>
+                           </Holes>
+                        </PerPing>
+                     </SchoolAspects>
+                  </module>
+               </configuration>
+            </unit>
+            <unit name="RefLogDataModule">
+               <configuration>
+                  <parameters/>
+               </configuration>
+            </unit>
+            <unit name="ScatterPlotModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="PlotCategories">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="SvDistributionModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="MinSv">-125</parameter>
+                     <parameter name="MaxSv">-25</parameter>
+                     <parameter name="MaxRange">-1</parameter>
+                     <parameter name="UseTVG">true</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="TSModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="DetectorType">SED</parameter>
+                     <parameter name="MinTS">-66</parameter>
+                     <parameter name="PulseLengthDeterminationLevel">6</parameter>
+                     <parameter name="MinEchoLength">0.8</parameter>
+                     <parameter name="MaxEchoLength">1.8</parameter>
+                     <parameter name="MaxGainCompensation">6</parameter>
+                     <parameter name="DoPhaseDeviationCheck">true</parameter>
+                     <parameter name="MaxPhaseDevSteps">8</parameter>
+                     <parameter name="MaxDepth"/>
+                     <parameter name="MaxTS">-20</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+            <unit name="TsPositionsModule">
+               <configuration>
+                  <parameters>
+                     <parameter name="Cross">true</parameter>
+                     <parameter name="AngularLines">true</parameter>
+                     <parameter name="AngularText">true</parameter>
+                     <parameter name="CartesianAxesLabels">true</parameter>
+                     <parameter name="CartesianGridLines">false</parameter>
+                     <parameter name="CartesianGridText">false</parameter>
+                     <parameter name="MousePosition">false</parameter>
+                  </parameters>
+               </configuration>
+            </unit>
+         </unit>
+      </unit>
+   </configuration>
+   <windowconfiguration>
+      <maindisplay>
+         <SouthModuleManager divider="0.5861">
+            <MapModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </MapModule>
+            <DeepVisionImageViewModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </DeepVisionImageViewModule>
+            <PromusSchoolDataModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusSchoolDataModule>
+            <PromusSchoolAnalysisModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusSchoolAnalysisModule>
+            <FrequencyResponseModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </FrequencyResponseModule>
+            <ScatterPlotModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </ScatterPlotModule>
+            <ThresholdResponseModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </ThresholdResponseModule>
+            <TSModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </TSModule>
+            <TsPositionsModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </TsPositionsModule>
+            <PlanktonModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PlanktonModule>
+            <SvDistributionModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </SvDistributionModule>
+            <InterpretationModule>
+               <visible>true</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </InterpretationModule>
+            <BroadbandSvModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </BroadbandSvModule>
+            <BroadbandTsModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </BroadbandTsModule>
+            <BroadbandTsHistogramModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </BroadbandTsHistogramModule>
+            <KoronaExperimentationModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </KoronaExperimentationModule>
+            <CategorizationAnalysisModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </CategorizationAnalysisModule>
+         </SouthModuleManager>
+         <EastModuleManager divider="0.8027">
+            <NumericalViewModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </NumericalViewModule>
+            <SystemInfoModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </SystemInfoModule>
+            <CTDViewModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </CTDViewModule>
+            <TrawlModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </TrawlModule>
+            <PingPlotModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PingPlotModule>
+            <BroadbandCalibrationPlotModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </BroadbandCalibrationPlotModule>
+            <PromusNumericalViewModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusNumericalViewModule>
+            <PromusPingDisplayModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusPingDisplayModule>
+            <PromusSliceDisplayModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusSliceDisplayModule>
+         </EastModuleManager>
+         <BelowEchogram divider="0.9705">
+            <EchogramPlotModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </EchogramPlotModule>
+            <PromusPhantomEchogramModule>
+               <visible>false</visible>
+               <floating>false</floating>
+               <relativesize>1</relativesize>
+            </PromusPhantomEchogramModule>
+         </BelowEchogram>
+      </maindisplay>
+   </windowconfiguration>
+   <data>
+      <parameters>
+         <parameter name="ObjectNumber">3</parameter>
+      </parameters>
+   </data>
+   <promusdata>
+      <parameters>
+         <parameter name="PromusSchoolIdCounter">0</parameter>
+      </parameters>
+   </promusdata>
+</survey>
